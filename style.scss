@@ -17,10 +17,16 @@ html {
   font-size: 100%;
 }
 
-body {
+/*body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+}*/
+
+body {
+	background: $black;
+  font: 18px/1.4 $ibmplexmono;
+  color: $white;
 }
 
 .container {
@@ -31,8 +37,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  /*font-family: $helveticaNeue;
+  color: $darkerGray;*/
+  font-family: $ibmplexmono;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,7 +77,8 @@ p {
 }
 
 a {
-  color: $blue;
+  /*color: $blue;*/
+  color: $green;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -117,7 +126,8 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  /*color: $gray;*/
+  color: $white;
 }
 
 // Specify the color of the selection
@@ -192,9 +202,12 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  /*color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $helveticaNeue;*/
+  color: $white;
+  cursor: pointer;
+  font-family: $ibmplexmono;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -202,7 +215,8 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  /*color: $gray;*/
+  color: $lightGray;
   font-size: 16px;
 
   @include mobile {
